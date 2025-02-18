@@ -8,7 +8,8 @@ import type { SessionTypes } from '@walletconnect/types';
 import { WalletConnectSigner } from './signer.js';
 import type { WalletConnectConfiguration, WcAccount } from './types.js';
 
-export const POLKADOT_CHAIN_ID = 'polkadot:91b171bb158e2d3848fa23a9f1c25182';
+// Polimec chainId
+export const POLKADOT_CHAIN_ID = 'polkadot:7eb9354488318e7549c722669dcbdcdc';
 export const WC_VERSION = '2.0';
 
 const toWalletAccount = (wcAccount: WcAccount) => ({ address: wcAccount.split(':')[2] });
